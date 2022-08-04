@@ -1,0 +1,8 @@
+BTC -> REN -> BNB -> BTC
+COURSE = 0.05..... // курс 1 REN в USD
+1. REN(в USD) = 9870.00000000(askQty) * COURSE
+2. BNB =
+
+
+askQty = объем валюты который можно продать по askPrice
+bidQty = объем валюты который можно купить по bidPrice

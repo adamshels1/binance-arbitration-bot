@@ -1,0 +1,29 @@
+        // if (check) console.log(getDateTime());
+        // if (check) console.log('BALANCE', BALANCE);
+        // if (check) console.log(b);
+        // if (check) console.log('el_1d', el_1d);
+        // if (!check) console.log('el_1d', el_1d.symbol);
+        // if (!check) console.log(`${AMOUNT} / ${el_1d.askPrice} = ${AMOUNT / el_1d.askPrice}`);
+        // if (check) console.log(`OFFER_1 ${b_usd_1.symbol} : `, `${el_1d.askQty} * ${b_usd_1.price} = ${el_1d.askQty * b_usd_1.price}`);
+        // if (check) console.log('el_2m', el_2m);
+        // if (!check) console.log('el_2m', el_2m.symbol);
+        // if (!check) console.log(`${res_1} * ${el_2m.bidPrice} = ${res_1 * el_2m.bidPrice}`);
+        // if (check) console.log(`OFFER_2 ${b_usd_2.symbol} : `, `${el_2m.bidQty} * ${b_usd_2.price} = ${el_2m.bidQty * b_usd_2.price}`);
+        // if (check) console.log('el_3m', el_3m);
+        // if (!check) console.log('el_3m', el_3m.symbol);
+        // if (!check) console.log(`${res_2} * ${el_3m.bidPrice} = ${res_2 * el_3m.bidPrice}`);
+        // if (check) console.log(`OFFER_3 ${b_usd_3.symbol} : `, `${el_3m.bidQty} * ${b_usd_3.price} = ${el_3m.bidQty * b_usd_3.price}`);
+        // if (check) console.log(OFFER_1);
+        // if (check) console.log(OFFER_2);
+        // if (check) console.log(OFFER_3);
+        // if (check) console.log('MINIMAL_OFFER_CHOOSE:', MINIMAL_OFFER.amount);
+        // if (check) console.log('MINIMAL_OFFER:', MINIMAL_OFFER_AMOUNT);
+        // if (check) console.log(`FINAL_OFFER ${b[0]}:`, `${MINIMAL_OFFER_AMOUNT} * 0.9 / ${b_usd_0.price}`);
+        // if (check) console.log(`MINIMAL_OFFER ${b[0]} = `, CHECK_RESULT.toString().red);
+        // if (check) console.log('----------------------------------')
+        // console.log('CHECK_RESULT', CHECK_RESULT)
+        console.log('----------------------------------');
+        console.log(`COMISSION ${b[0]}`, `(${res_3} / 100) * (0.0750 * 3) = ${COMISSION}`);
+        console.log(`FINAL ${b[0]}: `, `${res_3} - ${COMISSION} = ${FINAL}`);
+        console.log(`PROFIT ${b[0]}:`, `${FINAL} - ${CHECK_RESULT} = ${PROFIT} (${PROFIT_USD.toString().red} USD)`);
+        console.log('PROFIT %: ', ((FINAL * 100) / CHECK_RESULT - 100).toString().red);
